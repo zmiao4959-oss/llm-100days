@@ -5,6 +5,7 @@
 ### 🌟 项目概述
 
 作为一名非科班的工科学生，对大型语言模型（LLM）的技术原理与应用前景充满好奇与热情。本项目记录了我为期100天的系统性学习旅程——从零基础到具备LLM全栈实践能力的完整路径。这不仅是知识积累的过程，更是工程思维、学习方法和职业能力的综合锻造。
+补充：每日需要实现的任务在notebooks里，后续....
 
 ### 🎯 核心理念
 
@@ -114,6 +115,7 @@
 ### 🌟 Project Overview
 
 As a non-computer science engineering student, I am deeply fascinated by the technical principles and application prospects of Large Language Models (LLMs). This project documents my 100-day systematic learning journey—a complete path from foundational knowledge to full-stack LLM practical capabilities. This is not merely an accumulation of knowledge but a comprehensive cultivation of engineering thinking, learning methodologies, and professional competencies.
+add：tasks need to be done is in notebooks，future improvement....
 
 ### 🎯 Core Philosophy
 
