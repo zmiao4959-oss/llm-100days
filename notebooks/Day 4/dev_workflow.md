@@ -38,7 +38,7 @@ git push origin --delete feature/awesome-feature
 
 ```
 feature/    # 新功能
-bugfix/     # bug修复  
+bugfix/     # bug修复
 hotfix/     # 紧急修复
 docs/       # 文档更新
 test/       # 测试相关

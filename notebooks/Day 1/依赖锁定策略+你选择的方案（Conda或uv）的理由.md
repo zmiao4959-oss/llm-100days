@@ -2,19 +2,19 @@
 
 ## **工程模板**
 
-project\_root/  
-├─ README.md  
-├─ pyproject.toml / setup.py  
-├─ requirements.txt / environment.yml  
-├─ src/  
-│  └─ package\_name/  
-│     ├─ \_\_init\_\_.py  
-│     ├─ core/  
-│     ├─ utils/  
-│     └─ cli.py  
-├─ tests/  
-├─ data/        (可选，通常不进 git)  
-├─ scripts/  
+project\_root/
+├─ README.md
+├─ pyproject.toml / setup.py
+├─ requirements.txt / environment.yml
+├─ src/
+│  └─ package\_name/
+│     ├─ \_\_init\_\_.py
+│     ├─ core/
+│     ├─ utils/
+│     └─ cli.py
+├─ tests/
+├─ data/        (可选，通常不进 git)
+├─ scripts/
 └─ .gitignore
 
 ## requirements.txt vs environment.yml

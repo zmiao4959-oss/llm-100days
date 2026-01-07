@@ -16,15 +16,15 @@
 
 在项目根目录下，只需几步即可完成安装和配置：
 
-1. **安装工具**  
-   通过 pip 安装 `pre-commit` 包：  
+1. **安装工具**
+   通过 pip 安装 `pre-commit` 包：
    bash
 
    ```
    python -m pip install pre-commit
    ```
-2. **创建配置文件**  
-   在项目根目录创建 `.pre-commit-config.yaml` 文件。可以参考以下基础配置：  
+2. **创建配置文件**
+   在项目根目录创建 `.pre-commit-config.yaml` 文件。可以参考以下基础配置：
    yaml
 
    ```
@@ -54,8 +54,8 @@
      #     - id: ruff
      #       args: [--fix]
    ```
-3. **启用钩子**  
-   在项目目录下运行以下命令，它会将 `pre-commit` 安装到 Git 的钩子目录中：  
+3. **启用钩子**
+   在项目目录下运行以下命令，它会将 `pre-commit` 安装到 Git 的钩子目录中：
    bash
 
    ```
@@ -113,7 +113,7 @@ git commit -m "你的提交信息"
 
 对于你的情况，最清晰的路径是：
 
-1. ​**第一步（一次性大扫除）** ：  
+1. ​**第一步（一次性大扫除）** ：
    bash
 
    ```
@@ -123,5 +123,5 @@ git commit -m "你的提交信息"
    git commit -m "style: apply pre-commit formatting across entire project"
    ```
    这相当于给你的项目代码库做一次“大扫除”，建立一个干净的基线。
-2. ​**第二步（之后的日常开发）** ​：  
+2. ​**第二步（之后的日常开发）** ​：
    完成第一步后，在后续日常开发中，你只需正常使用 `git add`​ 和 `git commit`​。这时 `pre-commit`​ 只会检查你​**本次修改并暂存的文件**，速度快且针对性强。

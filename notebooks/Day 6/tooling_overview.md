@@ -69,20 +69,20 @@
 
 ## 典型工作流程
 
-开发者编写代码  
-↓  
-git add \<files\> # 暂存更改  
-↓  
-git commit # 触发pre-commit钩子  
-↓  
-[pre-commit自动运行]  
-├── ruff check # 检查代码质量  
-├── ruff format # 或black格式化代码  
-└── 其他检查  
-↓  
-✓ 所有检查通过 → 提交成功  
-✗ 检查失败 → 提交中止，显示错误  
-↓  
+开发者编写代码
+↓
+git add \<files\> # 暂存更改
+↓
+git commit # 触发pre-commit钩子
+↓
+[pre-commit自动运行]
+├── ruff check # 检查代码质量
+├── ruff format # 或black格式化代码
+└── 其他检查
+↓
+✓ 所有检查通过 → 提交成功
+✗ 检查失败 → 提交中止，显示错误
+↓
 开发者修复问题后重新提交
 
 ## 配置示例
@@ -114,7 +114,7 @@ repos:
       - id: ruff
         args: [--fix]
       - id: ruff-format
-  
+
   - repo: https://github.com/psf/black-pre-commit
     rev: 23.10.1
     hooks:
