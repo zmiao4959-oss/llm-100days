@@ -49,3 +49,6 @@ htmlcov/
 # 包管理器
 Pipfile.lock
 poetry.lock
+
+# 格式包
+.ruff_cache/

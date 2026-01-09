@@ -1,0 +1,10 @@
+''2026-01-09 15:41:11' - applog - DEBUG    - debug message for app logger'
+''2026-01-09 15:42:12' - applog - DEBUG    - debug message for app logger'
+''2026-01-09 15:42:12' - applog - ERROR    - invalid literal for int() with base 10: 'hello world''
+''2026-01-09 15:42:27' - applog - DEBUG    - debug message for app logger'
+''2026-01-09 15:42:27' - applog - ERROR    - invalid literal for int() with base 10: 'hello world''
+Traceback (most recent call last):
+  File "C:\Users\35059\Desktop\llm-100days\src\logging ѧϰ\test5.py", line 12, in <module>
+    int(x)
+    ~~~^^^
+ValueError: invalid literal for int() with base 10: 'hello world'

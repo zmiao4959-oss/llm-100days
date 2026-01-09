@@ -1,0 +1,66 @@
+# LLM Bootstrapping Configuration
+# This file contains application-wide configuration settings
+
+# Application settings
+app:
+  name: "LLM Bootstrapping Tool"
+  version: "0.1.0"
+  description: "A tool for bootstrapping LLM projects with CLI interface"
+
+  # Default values
+  defaults:
+    greeting_name: "LLM Developer"
+    greeting_times: 2
+    log_level: "INFO"
+    max_times: 10
+
+# Logging configuration
+logging:
+  # Available levels: DEBUG, INFO, WARNING, ERROR, CRITICAL
+  level: "INFO"
+
+  # Log format
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  date_format: "%Y-%m-%d %H:%M:%S"
+
+  # File logging
+  file:
+    enabled: false
+    path: "logs/llm_bootstrap.log"
+    max_size_mb: 10
+    backup_count: 5
+
+  # Console logging
+  console:
+    enabled: true
+    use_colors: true
+
+# Greeting settings
+greeting:
+  # Template settings
+  templates:
+    default: "Hello, {name}!"
+    formal: "Good day, {name}."
+    casual: "Hey {name}!"
+    excited: "HELLO {name}!!!"
+
+  # Behavior settings
+  behavior:
+    allow_empty_name: false
+    max_name_length: 50
+    min_times: 1
+    max_times: 10
+
+# Analysis settings
+analysis:
+  enabled: true
+  report_level: "basic"  # basic, detailed, full
+  export_formats: ["txt", "json"]
+  default_format: "txt"
+
+# Output settings
+output:
+  show_banner: true
+  banner_width: 50
+  use_emoji: true
+  color_output: true

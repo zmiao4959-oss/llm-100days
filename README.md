@@ -107,6 +107,12 @@
 都欢迎关注本项目进展、提出建议或参与讨论。每一次Star、Fork或Issue都是对我学习旅程的宝贵支持！
 
 ---
+### Demo1：translate_cli(request 调用 Google翻译)
+  python .\scripts\translate_cli.py -h  #查看参数信息
+
+  python .\scripts\translate_cli.py 'aurora is splendid' #英译中
+
+---
 
 # 🚀 100-Day LLM Systematic Learning & Practice Plan
 
